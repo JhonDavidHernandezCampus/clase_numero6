@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+#portada{
+	background-image: url(../img/slide-2.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+	height: 712px;	
+
+}
+#linea_superior{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+#portada{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buton{
+    background-color: rgb(52, 68, 174);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 4px;
+    color: white;
+}
+
+#servicios{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+article{
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+a{
+    background-color: rgb(52, 68, 174);
+    border: none;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-top: 13px;
+    padding: 8px;
+}
+p{
+    margin-bottom: 20px;
+}
+#parra{
+    margin: 0px;
+    color: white;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 68, 174);
+    height: 80px;
+    margin-bottom: 10px;
+}
